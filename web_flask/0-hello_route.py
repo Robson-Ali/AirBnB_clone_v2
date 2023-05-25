@@ -3,7 +3,7 @@
 start Flask application
 """
 
-from flask import Flask
+from Flask import Flask
 app = Flask('app')
 app = Flask(__name__)
 
