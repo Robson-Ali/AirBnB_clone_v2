@@ -4,6 +4,7 @@ start Flask application
 """
 
 from flask import Flask
+app = Flask('app')
 app = Flask(__name__)
 
 
